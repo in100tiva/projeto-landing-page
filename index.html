@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePro Academy - Cursos de Programação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">CodePro<span>Academy</span></a>
+            <ul class="nav__menu">
+                <li><a href="#cursos" class="nav__link">Cursos</a></li>
+                <li><a href="#beneficios" class="nav__link">Benefícios</a></li>
+                <li><a href="#precos" class="nav__link">Preços</a></li>
+                <li><a href="#contato" class="nav__link">Contato</a></li>
+            </ul>
+            <a href="#" class="button button--ghost">Entrar</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Aprenda programação com especialistas do mercado</h1>
+                    <p class="hero__description">
+                        Domine as tecnologias mais requisitadas do mercado e inicie sua carreira em programação com nossos cursos práticos e objetivos.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#cursos" class="button">Começar agora</a>
+                        <a href="#" class="button button--outline">Ver demonstração</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <h3>15k+</h3>
+                            <p>Alunos</p>
+                        </div>
+                        <div class="hero__stat">
+                            <h3>25+</h3>
+                            <p>Cursos</p>
+                        </div>
+                        <div class="hero__stat">
+                            <h3>95%</h3>
+                            <p>Satisfação</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="/api/placeholder/600/400" alt="Programador codificando">
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios Section -->
+        <section class="benefits" id="beneficios">
+            <div class="container">
+                <h2 class="section__title">Por que escolher a CodePro Academy?</h2>
+                <div class="benefits__grid">
+                    <div class="benefit__card">
+                        <div class="benefit__icon">🎯</div>
+                        <h3>Aprenda na Prática</h3>
+                        <p>Projetos reais e desafios práticos em todos os cursos</p>
+                    </div>
+                    <div class="benefit__card">
+                        <div class="benefit__icon">👨‍💻</div>
+                        <h3>Mentoria Individual</h3>
+                        <p>Suporte personalizado dos nossos instrutores</p>
+                    </div>
+                    <div class="benefit__card">
+                        <div class="benefit__icon">📱</div>
+                        <h3>Acesso Multiplataforma</h3>
+                        <p>Estude em qualquer dispositivo, onde quiser</p>
+                    </div>
+                    <div class="benefit__card">
+                        <div class="benefit__icon">🏆</div>
+                        <h3>Certificado Reconhecido</h3>
+                        <p>Certificação válida no mercado de trabalho</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursos Section -->
+        <section class="courses" id="cursos">
+            <div class="container">
+                <h2 class="section__title">Cursos mais populares</h2>
+                <div class="courses__grid">
+                    <div class="course__card">
+                        <img src="/api/placeholder/400/250" alt="Curso de JavaScript" class="course__image">
+                        <div class="course__content">
+                            <span class="course__tag">Iniciante</span>
+                            <h3 class="course__title">JavaScript Completo</h3>
+                            <p class="course__description">Aprenda JavaScript do zero ao avançado com projetos práticos.</p>
+                            <div class="course__footer">
+                                <span class="course__price">R$ 297,00</span>
+                                <a href="#" class="button button--small">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mais cards de cursos aqui... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>Comece sua jornada na programação hoje mesmo!</h2>
+                    <p>Junte-se a milhares de alunos que já transformaram suas carreiras.</p>
+                    <a href="#" class="button button--white">Começar agora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">CodePro<span>Academy</span></a>
+                    <p>Transformando vidas através da programação.</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">Instagram</a>
+                        <a href="#" class="footer__social-link">YouTube</a>
+                        <a href="#" class="footer__social-link">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#precos">Preços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer__newsletter">
+                    <h3>Fique por dentro das novidades</h3>
+                    <form class="footer__form">
+                        <input type="email" placeholder="Seu melhor e-mail" class="footer__input">
+                        <button type="submit" class="button">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 CodePro Academy. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
