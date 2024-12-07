@@ -74,7 +74,7 @@ A landing page é totalmente responsiva e se adapta aos seguintes breakpoints:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/codepro-landing-page.git
+git clone https://github.com/in100tiva/projeto-landing-page.git
 ```
 
 2. Navegue até o diretório do projeto:
